@@ -1,0 +1,51 @@
+ .service-main-container{ 
+    background-image: url(C:\Users\Admin\PSPortfolio\psfolio\src\Assets\portfolio\port9.jpg);
+    background-attachment: fixed;
+    background-repeat: vertical;
+}
+
+.service-main-container{
+    /* margin-top: 3rem; */
+    padding: 3rem 0;
+}
+
+.service-main-container .main-heading{
+    margin: 3rem 0 1rem 0;
+    font-weight: bold;
+}
+
+.project-container-subdiv{
+    box-shadow: 0 0.1rem 0.4rem rgba(8, 12, 63, 0.6);
+    background-color: hsl(223, 70%, 87%);
+}
+.project-container-subdiv:hover{
+    background-color: hsl(349, 61%, 90%);
+    box-shadow: 0 0.1rem 0.4rem rgba(112, 7, 35, 0.6);
+}
+
+/* FONT STYLING */
+.project-container-subdiv i{
+    text-align:right;
+    margin:1rem 1rem;
+    font-size: x-large;
+    color: rgb(79, 24, 79);
+    /* padding:5px 0 3px 3px; */
+}
+.project-container-subdiv.project-para{
+    text-align: center;
+}
+
+@media screen and (min-width : 1400px) {
+    .project-container-subdiv{
+        width: 30%;
+        flex: 0 0 auto;
+        margin:1.5rem auto;
+    }
+}
+@media screen and (min-width : 992px) {
+    .project-container-subdiv{
+        width: 30%;
+        flex: 0 0 auto;
+        margin:1.5rem auto;
+    }
+}

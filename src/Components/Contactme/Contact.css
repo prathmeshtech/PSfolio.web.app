@@ -1,0 +1,43 @@
+.contact-section{
+    background-color: #e8effc;
+    padding: 4rem 0;
+}
+
+.contact-heading{
+    padding:2rem 0 3rem 0;
+    font-weight: 900;
+}
+.contact-left img{
+    min-width: 40%;
+    max-height:25rem ;
+    height:auto;
+    box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.25);
+    border-radius: 1rem;
+}
+.contact{
+    margin-bottom: 3rem;
+}
+.contact-right form .form-control{
+    height: 3rem;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    border-radius: 0.6rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    font-weight: lighter;
+}
+.contact-right form .form-check-input{
+    width: 2rem;
+    height: 2rem;
+}
+.contact-right form .contact-para{
+    font-size: 1.5rem;
+    color: rgb(14, 9, 1);
+    margin: 0;
+    font-weight: lighter;
+    width: 95%;
+    padding:0 2rem ;
+}
+.subbtn{
+    font-size: large;
+}

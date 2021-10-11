@@ -1,0 +1,147 @@
+.about-section{
+    /* background-color:hsl(120, 100%, 98%); */
+    background-image: url(C:\Users\Admin\PSPortfolio\psfolio\src\Assets\portfolio\port9.jpg);
+    background-attachment: fixed;
+    /* z-index: 100; */
+    min-height: 85vh;
+}
+
+.about-container{
+    /* padding-top: 1rem; */
+    margin-top: 0rem;
+    padding: 3rem 0 3rem 0;
+}
+
+.main-heading{
+    color: #ccffff !important;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    text-shadow: 0px 0.8rem 0.8rem rgba ( 0, 0, 0, 0.8rem);
+}
+
+.about-me img{
+    width: 50% ;
+    /* height: 75%; */
+    height: 80%;
+    border-radius: 2rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.6);
+}
+
+.about-info{
+    padding-top: 3rem;
+}
+.about-info .about-nos{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    background-color: #037FFF;
+    border-radius: 3rem;
+    display: grid;
+    place-items: center;
+}
+.about-info h3 {
+    color: #e51dff ;
+    font-weight: bold;
+}
+.about-data{
+    padding-left: 1rem;
+}
+.span{
+    color: #037FFF !important;
+}
+.right-data{
+    background-color: #101629 !important;
+    /* padding-left: 1rem; */
+    margin:0 auto;
+    height:80%;
+    width: auto;
+    border-radius: 4rem;
+}
+
+@media screen and (max-width:425) {
+    .right-data{
+        width:50%;
+    }
+}
+
+.buttonCV{
+    padding-top: 2rem;
+}
+.btn-style{
+     background-color:#e51dff ;
+}
+
+ /* -------------------------------------------------------------SKILLS SECTION-------------------------------------------------------------------*/
+
+.skill-container{
+    padding-bottom: 1rem;
+    z-index: 100;   
+    height: 75vh;
+    background-color: #1a2238 !important;
+    border-radius: 5rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.2);
+}
+
+.skill-bar{
+    display: flex;
+    align-items: center;
+}
+.skill-progress{
+    width:100%;
+}
+
+.progress{
+    width: 100%;
+    height: .5rem;
+    background-color: red;
+    margin-left: 0;
+    background-color: #0381ff3f;
+    position: relative;
+}
+.inner-pregress{
+    position: absolute;
+    background-color: #037FFF;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width:1024px){
+    .skill-container{
+    height: 80% !important;
+    }
+}
+@media screen and (max-width:768px){
+    .skill-container{
+    height: auto !important;
+    }
+}
+@media screen and (max-width:430px){
+    .skill-container{
+    height: auto !important;
+    }
+}
+
+ /*------------------------------- TEXT STYLING----------------------- */
+ .heading .fas {
+    font-size: 3rem;
+    /* color: #ff6a3d; */
+    color: #f0bd65;
+    padding-bottom: 2rem;
+}
+.heading .skill-heading{
+   font-size:x-large;
+    font-weight:bold;
+    color: #f0bd65 !important;
+    padding: 2rem 0  0;
+}
+
+.skill-title{
+    padding-left: 2rem;
+    font-size: large;
+    font-weight: 100px;
+    color: #e51dff !important;
+}

@@ -1,0 +1,83 @@
+header{
+    background-color: #e8effc;
+    min-height: 95vh !important;
+    width: 100%;
+}
+.main-hero-container{
+    height: 80vh;
+    display: flex;
+} 
+
+/* Left Side Section */
+.main-hero-container h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.main-hero-container h1 span{
+    color: #513ae6;
+}
+
+.main-hero-para{
+    font-size: 1.5rem;
+    color: #5867bb;
+    font-weight: 150px;
+    margin: 3rem 0 3rem 0;
+    width: 90%;
+}
+
+/* Font Icons */
+.icon-gh{
+    font-size:70px;
+    color: black;
+    padding-right: 2rem;
+}
+.icon-ln{
+    font-size:70px;
+    color: rgb(49, 49, 189);
+    padding-right: 2rem;
+}
+.icon-yt{
+    font-size:70px;
+    color:red;
+    padding-right: 2rem;
+}
+.icon-ig{
+    font-size:70px;
+    color:rgb(255, 0, 119);
+    padding-right: 2rem;
+}
+
+/* Right Side Section */
+.main-herosection-images{
+    position: relative;
+}
+.main-herosection-images img{
+    width: 80% ;
+    height: 75%;
+    margin-top: 6rem;
+    box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.25);
+    border-radius: 1.5rem;   
+    position: absolute;
+}
+.main-herosection-images .main-hero-img2{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: 69%;
+    top: -4%;
+    box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.25);
+}
+
+@media screen and (max-width:768px) {
+    header{
+        height: 155vh ;
+    }
+    .main-herosection-images img{
+        top: 3rem;
+        width:50vh;
+        height:60vh;
+    }
+    .main-herosection-images .main-hero-img2{
+        visibility: hidden;
+    }
+}
